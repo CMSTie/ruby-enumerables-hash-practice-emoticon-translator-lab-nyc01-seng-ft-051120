@@ -14,7 +14,7 @@ end
 
 def get_japanese_emoticon(file_path, emot)
   emot_lib = load_library(file_path)
-  emot_lib
+  emot = emot_lib.keys.find do |name|
 end
 
 def get_english_meaning(file_path, emot)
