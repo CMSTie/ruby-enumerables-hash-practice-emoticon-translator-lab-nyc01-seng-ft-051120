@@ -6,12 +6,11 @@ def load_library(file_path)
   
   emoticon.each do |name, symbols|
     symbols.each do |symbols2|
-      {:english => symbols2[0], :japanese => symbols2[1]}
       if !new_hash[name]
         new_hash[name] = {}
       end
       if !new_hash[name][symbols2]
-        new_hash[name][symbols2] = {}
+        new_hash[name][symbols2] = {:english => symbols2[0], :japanese => symbols2[1]}
       end
     end
   end
