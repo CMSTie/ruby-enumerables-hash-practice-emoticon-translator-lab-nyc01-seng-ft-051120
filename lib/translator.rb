@@ -25,5 +25,5 @@ def get_english_meaning(file_path, emot)
   emot = emot_lib.keys.find do |key|
     emot_lib[key][:japanese] == emot
   end
-      emot ? emot_lib[emot][:english] : "Sorry, that emoticon was not found"
+      emot ? emot : "Sorry, that emoticon was not found"
 end
