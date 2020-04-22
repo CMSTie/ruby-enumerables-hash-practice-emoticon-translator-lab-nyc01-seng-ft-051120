@@ -12,10 +12,10 @@ def load_library(file_path)
     new_hash
 end
 
-def get_japanese_emoticon(file_path, jp_emot)
-  emoticon_jp = YAML.load_file(file_path)
+def get_japanese_emoticon(emoticon, jp_emot)
+  
 end
 
-def get_english_meaning(file_path, eng_emot)
-  emoticon_eng = YAML.load_file(file_path)
+def get_english_meaning(emoticon, eng_emot)
+  
 end
