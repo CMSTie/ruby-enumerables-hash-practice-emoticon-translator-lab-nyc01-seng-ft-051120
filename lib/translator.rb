@@ -12,10 +12,10 @@ def load_library(file_path)
     new_hash
 end
 
-def get_japanese_emoticon(emoticon_path, jp_emot)
+def get_japanese_emoticon(emoticon_path, eng_emot)
   
 end
 
-def get_english_meaning(emoticon_path, eng_emot)
+def get_english_meaning(emoticon_path, jp_emot)
   
 end
