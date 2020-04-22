@@ -14,6 +14,7 @@ def load_library(file_path)
         new_hash[name][symbols2] = {}
       end
     end
+  end
     new_hash
 end
 
