@@ -5,7 +5,7 @@ def load_library(file_path)
   new_hash = {}
   
   emoticon.each do |name, symbols|
-    name.each do |symbols2|
+    symbols.each do |symbols2|
       {:english => symbols2[0], :japanese => symbols2[1]}
       if !new_hash[name]
         new_hash[name] = {}
